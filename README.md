@@ -1,6 +1,14 @@
 # Create_write_perms_for-var-www-html
 
 
+
+Trouble shooting
+
+If the group is not there - then logout of 'shashi' and log back in.
+
+ $id
+uid=1004(shashi) gid=1004(shashi) groups=1004(shashi),27(sudo),1010(webmasters)
+
 ```
 cat /etc/group
 
